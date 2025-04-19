@@ -1,0 +1,11 @@
+{
+  "name": "nafa_group",
+  "version": "1.0.0",
+  "description": "E_comers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammed sinan k v",
+  "license": "ISC"
+}

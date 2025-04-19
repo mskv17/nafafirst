@@ -1,0 +1,22 @@
+.contact-contaner{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+.contact-contaner >h1{
+    overflow: hidden;
+    border-right: .15em solid rgb(10, 206, 36);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation:  3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(10, 206, 36); }
+  }

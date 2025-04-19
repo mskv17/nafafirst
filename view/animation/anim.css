@@ -1,0 +1,32 @@
+img{
+    animation: imganim 2s linear infinite ;
+}
+.img1{
+    animation-delay: 0;
+}
+.img2{
+    animation-delay: 1s;
+}
+.img3{
+    animation-delay: 2s;
+}
+.img4{
+    animation-delay: 3s;
+}
+
+
+
+
+
+
+@keyframes imganim {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
